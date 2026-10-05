@@ -227,10 +227,10 @@ So the relationship is:
 ```text
                  LangGraph
                      │
-              orchestration
+                orchestration
                      │
                      ▼
-              LangChain Core
+                LangChain Core
                      │
               execution primitives
                      │
@@ -279,5 +279,9 @@ LangGraph does **not replace** LangChain's primitives. It can use them.
 
 The **most important takeaway for the rest of this document** is that `langchain-core` is the foundation.  
 Once we understand its `Runnable` protocol, much of the rest of LangChain becomes composition of those same primitives.
+
+---
+
+[Docs by LangChain](https://docs.langchain.com/oss/python/langchain/overview)
 
 ---
